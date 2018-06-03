@@ -11,3 +11,5 @@ try:
     fib(int(many))
 except ValueError:
     where = input("enter a number only: ")
+except MemoryError:
+    print("out of memory")
