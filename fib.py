@@ -6,9 +6,9 @@ def fib(n):
     print("\n")
 
 
-many = input("how far do you want the fibonacci sequence up to: ")
+howFar = input("how far do you want the fibonacci sequence up to: ")
 try:
-    fib(int(many))
+    fib(int(howFar))
 except ValueError:
     where = input("enter a number only: ")
 except MemoryError:
